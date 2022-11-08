@@ -13,5 +13,11 @@ int main(int argc, char *argv[]) {
 	
 	printf("%s\n", str);
 	
+	while (str[i] !='\0')
+	{
+		printf("%c", str[i]);
+		i++;
+	}
+	
 	return 0;
 }
